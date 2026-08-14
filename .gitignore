@@ -1,2 +1,15 @@
 .venv
-data/
+
+# Datos raster descargados (se regeneran ejecutando el notebook)
+data/*.tif
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
