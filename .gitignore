@@ -3,6 +3,9 @@
 # Datos raster descargados (se regeneran ejecutando el notebook)
 data/*.tif
 
+# Dataset tabular para modelos (CSV supera el limite de 100MB de GitHub; se regenera desde el notebook)
+dataset_modelos.csv
+
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
